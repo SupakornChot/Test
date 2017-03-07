@@ -2,5 +2,8 @@ package numalphabet;
 
 
 public class NewClass {
-    private int a ;
+    private int v;
+    public void setV(int a){
+        v=a;
+    }
 }
