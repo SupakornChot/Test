@@ -27,5 +27,6 @@ public class NumAlphabet {
                 System.out.println("\n");
             }
         }
+        System.out.println("End Program");
     }
 }
