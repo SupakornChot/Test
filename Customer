@@ -1,0 +1,28 @@
+public class Customer {
+    private long custId;
+    private static long count;
+
+    public Customer(long custId, long count) {
+        this.custId = custId;
+        this.count = count;
+        count++;
+    }
+
+    public static long getCount() {
+        return count;
+    }
+
+    public long getCustId() {
+        return custId;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer ID : " + custId;
+    }
+    
+    
+    
+    
+    
+}
